@@ -1,0 +1,83 @@
+/* #root { */
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 1rem; */
+  /* text-align: center; */
+/* } */
+
+p{
+  margin: 0;
+}
+
+.containerCharts{
+  /* background-color: aqua; */
+  width: 95vh;
+  height: auto;
+  float: left;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.containerLinesChart{
+  background-color: #272727;
+  width: auto;
+  /* height: 50%; */
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  /* padding: 5%; */
+  height: 40vh;
+  display: flex;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
+.containerPiesChart{
+  background-color: #272727;
+  height: 28vh;
+  width: 35%;
+  float: left;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.containerBarsChart{
+  background-color: #272727;
+  height: 28vh;
+  width: 55%;
+  float: left;
+  margin-left: 2%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.containerHistory{
+  /* background-color: blue; */
+  height: 83vh;
+  width: 33.5%;
+  float: left;
+  /* margin-right: 1vw; */
+}
+
+
+.containerSmallChart{
+  background-color: #272727;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  /* float: left; */
+  /* padding: 2%; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+.containerJustChart{
+  margin-top: 2%;
+  width: 90%;
+  height: auto;
+  /* background-color: yellow; */
+}

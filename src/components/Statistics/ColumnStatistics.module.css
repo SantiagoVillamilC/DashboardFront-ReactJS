@@ -1,0 +1,116 @@
+.principalContainer{
+    /* background-color: #303030; */
+    /* display: flex; */
+    gap: 5%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 11vh;
+    width: 82vw;
+    /* margin-top: 2vh; */
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+    float: left;
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+}
+.enviadosContainer{
+    background-color: rgba(0, 220, 195, 0.2);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(0, 220, 195);
+    border-radius: 15px;
+
+    &:hover {
+        background-color: rgb(0, 220, 195);
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        color: #000;
+        border-radius: 0px;
+      }
+      &:not(:hover) {
+          background-color: rgba(0, 220, 195, 0.2);
+          transform: scale(1);
+          transition: all 0.5s ease-in-out;
+          border-radius: 15px;
+        }
+}
+.colaContainer{
+    background-color: rgba(54, 162, 235, 0.2);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgba(54, 162, 235, 1);
+    border-radius: 15px;
+
+    &:hover {
+        background-color: rgba(54, 162, 235, 1);
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        color: #000;
+        border-radius: 0px;
+      }
+      &:not(:hover) {
+          background-color: rgba(54, 162, 235, 0.2);
+          transform: scale(1);
+          transition: all 0.5s ease-in-out;
+          border-radius: 15px;
+        }
+}
+.procesandoContainer{
+    background-color: rgba(255, 206, 86, 0.2);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(255, 206, 86);
+    border-radius: 15px;
+
+    &:hover {
+        background-color: rgb(255, 206, 86);
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        color: #000;
+        border-radius: 0px;
+      }
+      &:not(:hover) {
+          background-color: rgba(255, 206, 86, 0.2);
+          transform: scale(1);
+          transition: all 0.5s ease-in-out;
+          border-radius: 15px;
+        }
+}
+.errorContainer{
+    background-color: rgba(255, 99, 132, 0.2);
+    border-radius: 1px;
+    border-style: solid;
+    border-color: rgb(255, 99, 132);
+    border-radius: 15px;
+
+    &:hover {
+        background-color: rgb(255, 99, 132);
+        transform: scale(1.1);
+        transition: all 0.5s ease-in-out;
+        color: #000;
+        border-radius: 0px;
+      }
+      &:not(:hover) {
+          background-color: rgba(255, 99, 132, 0.2);
+          transform: scale(1);
+          transition: all 0.5s ease-in-out;
+          border-radius: 15px;
+        }
+}
+.infoContainer{
+    padding-left: 5%;
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.imageInfoContainer{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 5%;
+}
+.numberContainer{
+    padding-top: 10%;
+    font-size: 25px;
+    margin-left: 10%;
+}

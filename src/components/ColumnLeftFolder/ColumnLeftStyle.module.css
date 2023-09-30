@@ -1,0 +1,56 @@
+.principalColumn{
+    height: 100vh;
+    width: 15vw;
+    float: left;
+    background-color: #272727;
+}
+
+.userInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10%;
+}
+
+ul, li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.bienvenida{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    height: 5%;
+    margin-top: 5%;
+}
+.listMenuPrincipal{
+    margin-left: 15%;
+    width: 70%;
+}
+.elementList{
+    margin-left: 10%;
+}
+.dispositionList{
+    display: grid;
+    grid-template-columns: 30px 130px;
+    margin-top: 5%;
+}
+
+li{
+    &:hover {
+        background-color: rgba(153, 102, 255, 1);
+        transform: scale(1.1);
+        transition: all 0.3s ease-in-out;
+        color: #000;
+        border-radius: 0px;
+      }
+      &:not(:hover) {
+          background-color: #272727;
+          transform: scale(1);
+          transition: all 0.3s ease-in-out;
+          border-radius: 15px;
+        }
+}
