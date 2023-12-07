@@ -15,7 +15,6 @@ function App() {
   return (
     <>
       <ColumnLeft />
-      {/* <h1>Correos</h1> */}
       {/* <p>Bienvenid@ al tablero de correos</p> */}
       <div className="containerStatistics">
         <ColumnStatistics />
